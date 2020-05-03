@@ -13,7 +13,6 @@
 
   Funcionalidades:
 
-  - API rest fictícia criada utilizando json server;
   - Utilização de Redux Saga para coordenação de actions e side effects;
   - Header configurado para navegação entre as telas utilizando a logomarca da "Marvel" e campo de pesquisa por nome;
   - Listagem de herois em ordem alfabetica; utilizando api [Marvel](https://developer.marvel.com/docs#)
@@ -38,6 +37,10 @@ Pelo terminal, acesse o diretório marvel-heroes do repositório clonado e execu
 ```bash
 # instalando as dependências
 yarn install
+
+# Crie uma conta em https://developer.marvel.com/docs
+copie e renomeie a cópia do arquivo .env.development.example para .env.development
+insira sua public key e private key em no arquivo que são fornecidas em https://developer.marvel.com/account
 
 # iniciando a aplicação
 yarn start
