@@ -1,68 +1,68 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+<h2 align="center">
+  <p>Aplicação que lista personagens da marvel</p>
+  <p align="center">
+    <img src="src/assets/images/home.PNG" width="30%" height="30%" max-width:100% >
+    <img src="src/assets/images/detail.PNG" width="70%" height="70%" max-width:100% >
+  </p>
+</h2>
 
-### `yarn start`
+<h3 align="center">
+  O projeto desenvolvido no módulo foi um e-commerce criado na web e o desafio proposto foi a criação da interface mobile do mesmo.
+</h3>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  Funcionalidades:
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+  - API rest fictícia criada utilizando json server;
+  - Utilização de Redux Saga para coordenação de actions e side effects;
+  - Header configurado para navegação entre as telas utilizando a logomarca da "Rocketshoes" e o ícone da cestinha de compras;
+  - Inclusão de produtos no carrinho com verificação de estoque e alerta se quantidade não estiver disponível;
+  - Adição e subtração de itens já inclusos no carrinho;
+  - Exclusão do produto do carrinho;
+  - Cálculo de subtotais e total de acordo com as quantidades e preços dos produtos que estão no carrinho.
 
-### `yarn test`
+<blockquote align="center">“Acredite em você a cada passo”</blockquote>
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### :heavy_check_mark: Configurações necessárias
 
-### `yarn build`
+-  [Git](https://git-scm.com)
+-  [Node](https://nodejs.org/)
+-  [Yarn](https://yarnpkg.com/)
+-  Ambiente para desenvolvimento mobile configurado conforme sistema operacional utilizado
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### :arrow_down_small: Clonando o repositório
+Pelo terminal, acesse o diretório em que deseja ter o repositório clonado e execute o comando a seguir.
+```bash
+# clonando o repositório
+git clone https://github.com/davifrancamaciel/marvel-heroes.git
+```
+### :computer: Iniciando o progeto
+Pelo terminal, acesse o diretório marvel-heroes do repositório clonado e execute os seguintes comandos separadamente.
+```bash
+# instalando as dependências
+yarn install
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+# iniciando a aplicação
+yarn start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+### :wrench: Tecnologias | Ferramentas | Recursos
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+-  [ReactJS](https://pt-br.reactjs.org/)
+-  [React App](https://pt-br.reactjs.org/docs/create-a-new-react-app.html)
+-  [ReactDOM](https://pt-br.reactjs.org/docs/react-dom.html)
+-  [React Router DOM](https://www.npmjs.com/package/react-router-dom)
+-  [React](https://pt-br.reactjs.org/)
+-  [React Native](https://reactnative.dev/)
+-  [React Toastify](https://github.com/fkhadra/react-toastify)
+-  [ESlint](https://eslint.org/)
+-  [Prettier](https://prettier.io/)
+-  [Babel ESlint](https://github.com/babel/babel-eslint)
+-  [Styled Components](https://styled-components.com/)
+-  [Axios](https://github.com/axios/axios)
+-  [React Redux](https://react-redux.js.org/)
+-  [Redux](https://redux.js.org/)
+-  [Redux Saga](https://redux-saga.js.org/)
+-  [History](https://github.com/ReactTraining/history/tree/3f69f9e07b0a739419704cffc3b3563133281548)
