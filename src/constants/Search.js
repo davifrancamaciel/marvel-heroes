@@ -1,0 +1,6 @@
+// * DEFAULT OBJECTS * \\
+
+export const INITIAL_STATE = ''
+
+// * ACTION TYPES * \\
+export const TEXT_SEARCH_CHANGED = 'TEXT_SEARCH_CHANGED'
