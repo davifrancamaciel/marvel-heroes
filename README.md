@@ -1,5 +1,7 @@
 
 # Marvel heroes
+# [Demo](https://marvel-heroes-davi.herokuapp.com)
+
 <h2 align="center">  
   <p align="center">
     <img src="src/assets/images/home.PNG" width="50%" height="30%" max-width:100% >
@@ -61,3 +63,5 @@ yarn start
 -  [React Redux](https://react-redux.js.org/)
 -  [Redux](https://redux.js.org/)
 -  [Redux Saga](https://redux-saga.js.org/)
+-  [Deploy automatizado no heroku](https://www.heroku.com//)
+
