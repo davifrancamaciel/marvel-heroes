@@ -1,6 +1,6 @@
 
 # Marvel heroes
-# [Demo](https://marvel-heroes-davi.herokuapp.com){:target="_blank"}
+# <a href="https://marvel-heroes-davi.herokuapp.com" taget="_blank">Demo</a>
 
 <h2 align="center">  
   <p align="center">
