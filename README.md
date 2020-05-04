@@ -15,7 +15,7 @@
 
   - Utilização de Redux Saga para coordenação de actions e side effects;
   - Header configurado para navegação entre as telas utilizando a logomarca da "Marvel" e campo de pesquisa por nome;
-  - Listagem de personagens em ordem alfabética; utilizando api [Marvel](https://developer.marvel.com/docs#)
+  - Listagem de personagens em ordem alfabética utilizando api [developer marvel](https://developer.marvel.com/docs#);
   - Visualização de detalhes do personagens;
   - Edição de um heroi salvando somente no estado da aplicação;  
 
@@ -34,9 +34,9 @@ git clone https://github.com/davifrancamaciel/marvel-heroes.git
 ```
 ### :computer: Iniciando o projeto
 
-# Crie uma conta em [Marvel](https://developer.marvel.com/docs)
+# Crie uma conta em [developer marvel](https://developer.marvel.com/docs)
 Faça uma cópia do arquivo *.env.development.example* renomeie para *.env.development*
-insira sua public key e private key em no arquivo. Que são fornecidas em [Keys](https://developer.marvel.com/account)
+insira sua public key e private key em no arquivo. Que são fornecidas em [keys](https://developer.marvel.com/account)
 
 Pelo terminal, acesse o diretório marvel-heroes do repositório clonado e execute os seguintes comandos separadamente.
 ```bash
