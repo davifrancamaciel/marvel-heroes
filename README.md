@@ -8,15 +8,15 @@
 </h2>
 
 <h3 align="center">
-  O projeto desenvolvido com a finalidade de listar horóis marvel
+  O projeto foi desenvolvido com a finalidade de listar personagens da marvel
 </h3>
 
   Funcionalidades:
 
   - Utilização de Redux Saga para coordenação de actions e side effects;
   - Header configurado para navegação entre as telas utilizando a logomarca da "Marvel" e campo de pesquisa por nome;
-  - Listagem de herois em ordem alfabetica; utilizando api [Marvel](https://developer.marvel.com/docs#)
-  - Visualização de detalhes do herói;
+  - Listagem de personagens em ordem alfabética; utilizando api [Marvel](https://developer.marvel.com/docs#)
+  - Visualização de detalhes do personagens;
   - Edição de um heroi salvando somente no estado da aplicação;  
 
 ### :heavy_check_mark: Configurações necessárias
