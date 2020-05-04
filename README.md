@@ -1,6 +1,6 @@
 
 # Marvel heroes
-# [Demo](https://marvel-heroes-davi.herokuapp.com)
+# [Demo](https://marvel-heroes-davi.herokuapp.com){:target="_blank"}
 
 <h2 align="center">  
   <p align="center">
