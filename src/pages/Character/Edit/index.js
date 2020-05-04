@@ -40,7 +40,9 @@ class CharacterEdit extends Component {
     const selectedCharacter = results.find(
       c => c.id === Number(match.params.id)
     )
-    console.log(selectedCharacter)
+    
+    if (!selectedCharacter) return <Loading />
+
     return (
       <Container>
         <BackLink to={`/characters/${selectedCharacter.id}`}>

@@ -41,14 +41,19 @@ class CharacterDetail extends Component {
     const selectedCharacter = results.find(
       c => c.id === Number(match.params.id)
     )
+    console.log(selectedCharacter)
 
+    if (!selectedCharacter) return <Loading />
+    
     return (
       <Container>
         <CharacterHeaderDetails selectedCharacter={selectedCharacter} />
         <CharacterAnalytics selectedCharacter={selectedCharacter} />
-        {selectedCharacter.series.available > 0 && (
-          <SeriesList id={selectedCharacter.id} />
-        )}
+        {selectedCharacter &&
+          selectedCharacter.series &&
+          selectedCharacter.series.available > 0 && (
+            <SeriesList id={selectedCharacter.id} />
+          )}
       </Container>
     )
   }

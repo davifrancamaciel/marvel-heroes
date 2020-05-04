@@ -24,10 +24,12 @@ function * listCharacter ({ search, limit }) {
     api.get,
     encodeURI(`/characters?${searchQuery}limit=${limit}`)
   )
-
+  
+  
   yield put(listCharacterSuccess(response.data.data))
-
+  
   history.push(`/`)
+
 }
 
 function * listCharacterNext ({ search, limit, offset }) {
