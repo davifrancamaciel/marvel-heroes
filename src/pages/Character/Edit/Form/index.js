@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react'
-import { useSelector, useDispatch } from 'react-redux'
+import React, { useState } from 'react'
+import { useDispatch } from 'react-redux'
 
 import { saveCharacterRequest } from '../../../../store/modules/character/actions'
 
@@ -9,7 +9,6 @@ export default function CharacterForm ({ selectedCharacter }) {
   const [name, setName] = useState(selectedCharacter.name)
   const [description, setDescription] = useState(selectedCharacter.description)
 
-  const characters = useSelector(state => state.characters)
   const dispatch = useDispatch()
 
   function handleEdit (e) {
