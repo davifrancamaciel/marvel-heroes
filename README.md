@@ -2,7 +2,7 @@
 # Marvel heroes
 <h2 align="center">  
   <p align="center">
-    <img src="src/assets/images/home.PNG" width="30%" height="30%" max-width:100% >
+    <img src="src/assets/images/home.PNG" width="50%" height="30%" max-width:100% >
     <img src="src/assets/images/detail.PNG" width="70%" height="70%" max-width:100% >
   </p>
 </h2>
@@ -33,14 +33,15 @@ Pelo terminal, acesse o diretório em que deseja ter o repositório clonado e ex
 git clone https://github.com/davifrancamaciel/marvel-heroes.git
 ```
 ### :computer: Iniciando o projeto
+
+# Crie uma conta em [Marvel](https://developer.marvel.com/docs)
+Faça uma cópia do arquivo *.env.development.example* renomeie para *.env.development*
+insira sua public key e private key em no arquivo. Que são fornecidas em [Keys](https://developer.marvel.com/account)
+
 Pelo terminal, acesse o diretório marvel-heroes do repositório clonado e execute os seguintes comandos separadamente.
 ```bash
 # instalando as dependências
 yarn install
-
-# Crie uma conta em https://developer.marvel.com/docs
-copie e renomeie a cópia do arquivo .env.development.example para .env.development
-insira sua public key e private key em no arquivo que são fornecidas em https://developer.marvel.com/account
 
 # iniciando a aplicação
 yarn start
